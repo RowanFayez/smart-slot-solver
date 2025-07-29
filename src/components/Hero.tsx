@@ -49,8 +49,8 @@ const Hero = () => {
 
           {/* Feature Cards */}
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto">
+            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300 group animate-fade-in">
+              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:animate-float">
                 <Calendar className="h-6 w-6 text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Auto-Scheduling</h3>
@@ -59,8 +59,8 @@ const Hero = () => {
               </p>
             </Card>
 
-            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto">
+            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300 group animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:animate-float">
                 <Users className="h-6 w-6 text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Conflict Resolution</h3>
@@ -69,8 +69,8 @@ const Hero = () => {
               </p>
             </Card>
 
-            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto">
+            <Card className="p-6 bg-card/80 backdrop-blur-sm border-border shadow-elegant hover:shadow-glow transition-all duration-300 group animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 mx-auto group-hover:animate-float">
                 <Clock className="h-6 w-6 text-primary-foreground" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Real-Time Updates</h3>
