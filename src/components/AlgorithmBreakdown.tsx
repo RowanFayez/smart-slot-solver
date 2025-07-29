@@ -177,7 +177,7 @@ const AlgorithmBreakdown = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-sm">Average Resolution Time</span>
-                    <Badge variant="secondary">< 200ms</Badge>
+                    <Badge variant="secondary">{`< 200ms`}</Badge>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm">Conflict Detection Rate</span>
@@ -196,9 +196,9 @@ const AlgorithmBreakdown = () => {
                 <div className="pt-4 border-t">
                   <h4 className="font-medium mb-3">Algorithm Selection Logic</h4>
                   <div className="text-sm text-muted-foreground space-y-1">
-                    <div>• <strong>Small groups (&lt;50):</strong> Hungarian Algorithm</div>
+                    <div>• <strong>Small groups ({`<`}50):</strong> Hungarian Algorithm</div>
                     <div>• <strong>Medium groups (50-500):</strong> CSP with heuristics</div>
-                    <div>• <strong>Large groups (&gt;500):</strong> Genetic Algorithm</div>
+                    <div>• <strong>Large groups ({`>`}500):</strong> Genetic Algorithm</div>
                     <div>• <strong>Real-time updates:</strong> Graph Coloring</div>
                   </div>
                 </div>
